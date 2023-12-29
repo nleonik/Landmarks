@@ -32,7 +32,7 @@ struct LandmarkDetail: View {
                     .font(.title)
                     .foregroundColor(.green)
                     FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
-  
+                       
                 }
                 HStack {
                     Text(landmark.park)
